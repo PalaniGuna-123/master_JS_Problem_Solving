@@ -14,7 +14,6 @@ function calculateTotal(cart){
         }
     }
     console.log(total);
-    
 
 }
 calculateTotal(["M 3", "J 1", "T 2"]);

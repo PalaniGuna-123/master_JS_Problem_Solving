@@ -34,10 +34,8 @@ function findMaxRepeatNum(arr){
         }
         else if(arr[i]===max){
             count++
-        }
-        
+        } 
     }
     console.log(count);
-    
 }
 findMaxRepeatNum([1,2,3,4,4,5,5,5]);

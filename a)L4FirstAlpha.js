@@ -11,7 +11,6 @@ function findFirstAlphabetically(arr) {
 
     return firstString;
 }
-
 let string = ["banana", "apple", "cherry", "date","apricot"];
 console.log(findFirstAlphabetically(string));
 

@@ -22,18 +22,3 @@ function indices(arr,target){
    
 }
 indices([5, 2, 3, 5, 7, 5, 8], 5)
-
-
-function daily(arr,value){
-    let guna=[]
-    for(let i=0;i<=arr.length;i++){
-        if(arr[i]===value){
-            guna.push(i)
-
-        }
-        gun=guna[0]
-        g=guna[guna.length-1]
-    }
-    console.log(`first index${gun}`);
-    
-}

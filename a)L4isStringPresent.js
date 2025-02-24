@@ -7,6 +7,6 @@ function isStringPresent(arr, s) {
     return false; 
 }
 const arr = ["apple", "banana", "cherry"];
-const s = "banan";
+const s = "banana";
 console.log(isStringPresent(arr, s)); 
 

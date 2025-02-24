@@ -1,4 +1,4 @@
-// // You need to calculate the total amount earned by an Ola cabs owner based on the distance travelled by his vehicles...
+// You need to calculate the total amount earned by an Ola cabs owner based on the distance travelled by his vehicles...
 // You are given an array where each entry contains;
 // the type of cab
 // the number of kilometers traveled, separated by a space 
@@ -35,6 +35,7 @@ console.log(total);
 
 }
 example(["mini 20","micro 4","prime 20"])
+
 function earn(arr){
     let total=0;
     for(let cart of arr){

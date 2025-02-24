@@ -27,17 +27,11 @@ function bub(arr){
             }
         }
         console.log(arr.join(' '));
-        
-
     }
 }
 bub([1, 2, 3, 4, 5]); 
-
 function buble(arr) {
-    if (!Array.isArray(arr) || arr.length === 0) {
-        console.log("Invalid input. Please provide a non-empty array.");
-        return;
-    }
+
     let count = 1;
     while (count > 0) {
         count = 0;
@@ -50,11 +44,6 @@ function buble(arr) {
         console.log(arr.join(' '));
     }
 }
-
-buble([5, 2, 9, 1, 5, 6]); 
-buble([]); 
-buble(null); 
-
 
 
 
@@ -73,3 +62,15 @@ function Selection(arr){
 }
 Selection([2,45,87,9,1,23,67])
 
+function Selection(arr){
+    let n=arr.length;
+    for(let i=0;i<n;i++){
+        for(let j=i+1;j<n;j++){
+            if(arr[i]>arr[j]){
+                [arr[i],arr[j]]=[arr[j],arr[i]]
+            }
+        }
+        console.log(arr.join(', '))
+    }
+}
+Selection([12,54,67,876,443])
